@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  background:black;
+  /* // #f2f2f2; */
+  /* color: #333; */
+  font-size: 16px;
+  
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #333; */
+    padding:  20px 50px ;
+    color: white;
+   /* color: #333; */
+}
+#part2{
+    display: flex;
+    gap : 20px;
+}
+h1{
+  color: white;
+  white-space: nowrap;
+  font-size: 70px;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  position: absolute;
+}
